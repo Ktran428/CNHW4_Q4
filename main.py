@@ -153,7 +153,7 @@ class SDNController:
     
     def cli(self):
         """Simple command-line interface"""
-        print(f"SDN Controller (Watermark: {self.watermark}")
+        print(f"SDN Controller (Watermark: {self.watermark})")
         while True:
             print("\nOptions:")
             print("1. Add a node")
